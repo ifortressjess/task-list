@@ -42,8 +42,6 @@ function App() {
     setItems(markDone);
   };
 
-  console.log("items", items);
-
   //CREATE NEW TODO
   const addTodo = () => {
     if (text === "") {
